@@ -40,7 +40,7 @@ git clone https://github.com/0954517662/2019
 
 cd 2019
 
-python3 antijs.py
+python3 MAX4.py
 
 #==================
 ==================
@@ -82,7 +82,7 @@ git clone https://github.com/0954517662/2019.git
 
 cd 2019
 
-python3 antijs.py
+python3 MAX4.py
 
 Cara Menjalankan Bot Kembali :
 cd 2019
