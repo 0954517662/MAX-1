@@ -118,7 +118,7 @@ wait = {
     'autoLeave1':False,
     "detectMention":True,
     "Mentionkick":False,
-    "welcomeOn":True,
+    "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
     "mention":"NGINTIPPP!!!",
@@ -294,130 +294,130 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╭━━━━━━━━━━╮\n┣【さัএπัஞ✵ບิथℓℓҨतΩ】\n╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX MENU ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Me\n" + \
-                  "┃🇮🇩┃ " + key + "Mid「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Info「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Nk「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Kick1「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Mybot\n" + \
-                  "┃🇮🇩┃ " + key + "Status\n" + \
-                  "┃🇮🇩┃ " + key + "About\n" + \
-                  "┃🇮🇩┃ " + key + "Restart\n" + \
-                  "┃🇮🇩┃ " + key + "Runtime\n" + \
-                  "┃🇮🇩┃ " + key + "Creator\n" + \
-                  "┃🇮🇩┃ " + key + "Speed/Sp\n" + \
-                  "┃🇮🇩┃ " + key + "Sprespon\n" + \
-                  "┃🇮🇩┃ " + key + "Tagall\n" + \
-                  "┃🇮🇩┃ " + key + "Joinall\n" + \
-                  "┃🇮🇩┃ " + key + "Byeall\n" + \
-                  "┃🇮🇩┃ " + key + "Byeme\n" + \
-                  "┃🇮🇩┃ " + key + "Leave「Namagrup」\n" + \
-                  "┃🇮🇩┃ " + key + "Ginfo\n" + \
-                  "┃🇮🇩┃ " + key + "Open\n" + \
-                  "┃🇮🇩┃ " + key + "Close\n" + \
-                  "┃🇮🇩┃ " + key + "Url grup\n" + \
-                  "┃🇮🇩┃ " + key + "Gruplist\n" + \
-                  "┃🇮🇩┃ " + key + "Infogrup「angka」\n" + \
-                  "┃🇮🇩┃ " + key + "Infomem「angka」\n" + \
-                  "┃🇮🇩┃ " + key + "Remove chat\n" + \
-                  "┃🇮🇩┃ " + key + "Lurking「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Lurkers\n" + \
-                  "┃🇮🇩┃ " + key + "Sider「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Updatefoto\n" + \
-                  "┃🇮🇩┃ " + key + "Updategrup\n" + \
-                  "┃🇮🇩┃ " + key + "Updatebot\n" + \
-                  "┃🇮🇩┃ " + key + "Broadcast:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Setkey「New Key」\n" + \
-                  "┃🇮🇩┃ " + key + "Mykey\n" + \
-                  "┃🇮🇩┃ " + key + "Resetkey\n" + \
+                  "┃🔴┃ " + key + "Me\n" + \
+                  "┃🔴┃ " + key + "Mid「@」\n" + \
+                  "┃🔴┃ " + key + "Info「@」\n" + \
+                  "┃🔴┃ " + key + "Nk「@」\n" + \
+                  "┃🔴┃ " + key + "Kick1「@」\n" + \
+                  "┃🔴┃ " + key + "Mybot\n" + \
+                  "┃🔴┃ " + key + "Status\n" + \
+                  "┃🔴┃ " + key + "About\n" + \
+                  "┃🔴┃ " + key + "Restart\n" + \
+                  "┃🔴┃ " + key + "Runtime\n" + \
+                  "┃🔴┃ " + key + "Creator\n" + \
+                  "┃🔴┃ " + key + "Speed/Sp\n" + \
+                  "┃🔴┃ " + key + "Sprespon\n" + \
+                  "┃🔴┃ " + key + "Tagall\n" + \
+                  "┃🔴┃ " + key + "Joinall\n" + \
+                  "┃🔴┃ " + key + "Byeall\n" + \
+                  "┃🔴┃ " + key + "Byeme\n" + \
+                  "┃🔴┃ " + key + "Leave「Namagrup」\n" + \
+                  "┃🔴┃ " + key + "Ginfo\n" + \
+                  "┃🔴┃ " + key + "Open\n" + \
+                  "┃🔴┃ " + key + "Close\n" + \
+                  "┃🔴┃ " + key + "Url grup\n" + \
+                  "┃🔴┃ " + key + "Gruplist\n" + \
+                  "┃🔴┃ " + key + "Infogrup「angka」\n" + \
+                  "┃🔴┃ " + key + "Infomem「angka」\n" + \
+                  "┃🔴┃ " + key + "Remove chat\n" + \
+                  "┃🔴┃ " + key + "Lurking「on/off」\n" + \
+                  "┃🔴┃ " + key + "Lurkers\n" + \
+                  "┃🔴┃ " + key + "Sider「on/off」\n" + \
+                  "┃🔴┃ " + key + "Updatefoto\n" + \
+                  "┃🔴┃ " + key + "Updategrup\n" + \
+                  "┃🔴┃ " + key + "Updatebot\n" + \
+                  "┃🔴┃ " + key + "Broadcast:「Text」\n" + \
+                  "┃🔴┃ " + key + "Setkey「New Key」\n" + \
+                  "┃🔴┃ " + key + "Mykey\n" + \
+                  "┃🔴┃ " + key + "Resetkey\n" + \
                   "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX ASIK ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "ID line:「Id Line nya」\n" + \
-                  "┃🇮🇩┃ " + key + "Sholat:「Nama Kota」\n" + \
-                  "┃🇮🇩┃ " + key + "Cuaca:「Nama Kota」\n" + \
-                  "┃🇮🇩┃ " + key + "Lokasi:「Nama Kota」\n" + \
-                  "┃🇮🇩┃ " + key + "Music:「Judul Lagu」\n" + \
-                  "┃🇮🇩┃ " + key + "Lirik:「Judul Lagu」\n" + \
-                  "┃🇮🇩┃ " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "┃🇮🇩┃ " + key + "Ytmp4:「Judul Video」\n" + \
-                  "┃🇮🇩┃ " + key + "Profileig:「Nama IG」\n" + \
-                  "┃🇮🇩┃ " + key + "Cekdate:「tgl-bln-thn」\n" + \
-                  "┃🇮🇩┃ " + key + "Jumlah:「angka」\n" + \
-                  "┃🇮🇩┃ " + key + "Spamtag「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Spamcall:「jumlahnya」\n" + \
-                  "┃🇮🇩┃ " + key + "Spamcall\n" + \
+                  "┃🔴┃ " + key + "ID line:「Id Line nya」\n" + \
+                  "┃🔴┃ " + key + "Sholat:「Nama Kota」\n" + \
+                  "┃🔴┃ " + key + "Cuaca:「Nama Kota」\n" + \
+                  "┃🔴┃ " + key + "Lokasi:「Nama Kota」\n" + \
+                  "┃🔴┃ " + key + "Music:「Judul Lagu」\n" + \
+                  "┃🔴┃ " + key + "Lirik:「Judul Lagu」\n" + \
+                  "┃🔴┃ " + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "┃🔴┃ " + key + "Ytmp4:「Judul Video」\n" + \
+                  "┃🔴┃ " + key + "Profileig:「Nama IG」\n" + \
+                  "┃🔴┃ " + key + "Cekdate:「tgl-bln-thn」\n" + \
+                  "┃🔴┃ " + key + "Jumlah:「angka」\n" + \
+                  "┃🔴┃ " + key + "Spamtag「@」\n" + \
+                  "┃🔴┃ " + key + "Spamcall:「jumlahnya」\n" + \
+                  "┃🔴┃ " + key + "Spamcall\n" + \
                   "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX PROTECT ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Notag「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Semuapro「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Protecturl「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Protectjoin「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Protectkick「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Protectcancel「on/off」\n" + \
+                  "┃🔴┃ " + key + "Notag「on/off」\n" + \
+                  "┃🔴┃ " + key + "Semuapro「on/off」\n" + \
+                  "┃🔴┃ " + key + "Protecturl「on/off」\n" + \
+                  "┃🔴┃ " + key + "Protectjoin「on/off」\n" + \
+                  "┃🔴┃ " + key + "Protectkick「on/off」\n" + \
+                  "┃🔴┃ " + key + "Protectcancel「on/off」\n" + \
                   "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX SETTING ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Sticker「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Respon「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Contact「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Autojoin「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Autoadd「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Welcome「on/off」\n" + \
-                  "┃🇮🇩┃ " + key + "Autoleave「on/off」\n" + \
+                  "┃🔴┃ " + key + "Sticker「on/off」\n" + \
+                  "┃🔴┃ " + key + "Respon「on/off」\n" + \
+                  "┃🔴┃ " + key + "Contact「on/off」\n" + \
+                  "┃🔴┃ " + key + "Autojoin「on/off」\n" + \
+                  "┃🔴┃ " + key + "Autoadd「on/off」\n" + \
+                  "┃🔴┃ " + key + "Welcome「on/off」\n" + \
+                  "┃🔴┃ " + key + "Autoleave「on/off」\n" + \
                   "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX ADMIN ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Admin:on\n" + \
-                  "┃🇮🇩┃ " + key + "Admin:repeat\n" + \
-                  "┃🇮🇩┃ " + key + "Staff:on\n" + \
-                  "┃🇮🇩┃ " + key + "Staff:repeat\n" + \
-                  "┃🇮🇩┃ " + key + "Bot:on\n" + \
-                  "┃🇮🇩┃ " + key + "Bot:repeat\n" + \
-                  "┃🇮🇩┃ " + key + "Adminadd「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Admindell「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Staffadd「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Staffdell「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Botadd「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Botdell「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Refresh\n" + \
-                  "┃🇮🇩┃ " + key + "Listbot\n" + \
-                  "┃🇮🇩┃ " + key + "Listadmin\n" + \
-                  "┃🇮🇩┃ " + key + "Listprotect\n" + \
-                  "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX FAMS┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n┣━😈【さัএπัஞ✵ບิथℓℓҨतΩ】😈━\n╰━━━━━━━━━━╯\n"
+                  "┃🔴┃ " + key + "Admin:on\n" + \
+                  "┃🔴┃ " + key + "Admin:repeat\n" + \
+                  "┃🔴┃ " + key + "Staff:on\n" + \
+                  "┃🔴┃ " + key + "Staff:repeat\n" + \
+                  "┃🔴┃ " + key + "Bot:on\n" + \
+                  "┃🔴┃ " + key + "Bot:repeat\n" + \
+                  "┃🔴┃ " + key + "Adminadd「@」\n" + \
+                  "┃🔴┃ " + key + "Admindell「@」\n" + \
+                  "┃🔴┃ " + key + "Staffadd「@」\n" + \
+                  "┃🔴┃ " + key + "Staffdell「@」\n" + \
+                  "┃🔴┃ " + key + "Botadd「@」\n" + \
+                  "┃🔴┃ " + key + "Botdell「@」\n" + \
+                  "┃🔴┃ " + key + "Refresh\n" + \
+                  "┃🔴┃ " + key + "Listbot\n" + \
+                  "┃🔴┃ " + key + "Listadmin\n" + \
+                  "┃🔴┃ " + key + "Listprotect\n" + \
+                  "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX FAMS┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n┣😈【さัএπัஞ✵ບิथℓℓҨतΩ】😈\n╰━━━━━━━━━━╯\n"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "──┅━✥ == ✥━┅──\n┃😈┃ MAX BLACKLIST ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Blc\n" + \
-                  "┃🇮🇩┃ " + key + "Ban:on\n" + \
-                  "┃🇮🇩┃ " + key + "Unban:on\n" + \
-                  "┃🇮🇩┃ " + key + "Ban「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Unban「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Talkban「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Untalkban「@」\n" + \
-                  "┃🇮🇩┃ " + key + "Talkban:on\n" + \
-                  "┃🇮🇩┃ " + key + "Untalkban:on\n" + \
-                  "┃🇮🇩┃ " + key + "Banlist\n" + \
-                  "┃🇮🇩┃ " + key + "Talkbanlist\n" + \
-                  "┃🇮🇩┃ " + key + "Clearban\n" + \
-                  "┃🇮🇩┃ " + key + "Refresh\n" + \
+                  "┃🔵┃ " + key + "Blc\n" + \
+                  "┃🔵┃ " + key + "Ban:on\n" + \
+                  "┃🔵┃ " + key + "Unban:on\n" + \
+                  "┃🔵┃ " + key + "Ban「@」\n" + \
+                  "┃🔵┃ " + key + "Unban「@」\n" + \
+                  "┃🔵┃ " + key + "Talkban「@」\n" + \
+                  "┃🔵┃ " + key + "Untalkban「@」\n" + \
+                  "┃🔵┃ " + key + "Talkban:on\n" + \
+                  "┃🔵┃ " + key + "Untalkban:on\n" + \
+                  "┃🔵┃ " + key + "Banlist\n" + \
+                  "┃🔵┃ " + key + "Talkbanlist\n" + \
+                  "┃🔵┃ " + key + "Clearban\n" + \
+                  "┃🔵┃ " + key + "Refresh\n" + \
                   "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX MENU ┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n" + \
-                  "┃🇮🇩┃ " + key + "Cek sider\n" + \
-                  "┃🇮🇩┃ " + key + "Cek spam\n" + \
-                  "┃🇮🇩┃ " + key + "Cek pesan \n" + \
-                  "┃🇮🇩┃ " + key + "Cek respon \n" + \
-                  "┃🇮🇩┃ " + key + "Cek welcome\n" + \
-                  "┃🇮🇩┃ " + key + "Set sider:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set spam:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set pesan:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set respon:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Set welcome:「Text」\n" + \
-                  "┃🇮🇩┃ " + key + "Myname:「Nama」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot1name:「Nama」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot2name:「Nama」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot3name:「Nama」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot1up「Kirim fotonya」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot2up「Kirim fotonya」\n" + \
-                  "┃🇮🇩┃ " + key + "Bot3up「Kirim fotonya」\n" + \
-                  "┃🇮🇩┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
-                  "┃🇮🇩┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX FAMS┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n┣😈━【さัএπัஞ✵ບิथℓℓҨतΩ】😈━\n╰━━━━━━━━━━╯\n"
+                  "┃🔵┃ " + key + "Cek sider\n" + \
+                  "┃🔵┃ " + key + "Cek spam\n" + \
+                  "┃🔵┃ " + key + "Cek pesan \n" + \
+                  "┃🔵┃ " + key + "Cek respon \n" + \
+                  "┃🔵┃ " + key + "Cek welcome\n" + \
+                  "┃🔵┃ " + key + "Set sider:「Text」\n" + \
+                  "┃🔵┃ " + key + "Set spam:「Text」\n" + \
+                  "┃🔵┃ " + key + "Set pesan:「Text」\n" + \
+                  "┃🔵┃ " + key + "Set respon:「Text」\n" + \
+                  "┃🔵┃ " + key + "Set welcome:「Text」\n" + \
+                  "┃🔵┃ " + key + "Myname:「Nama」\n" + \
+                  "┃🔵┃ " + key + "Bot1name:「Nama」\n" + \
+                  "┃🔵┃ " + key + "Bot2name:「Nama」\n" + \
+                  "┃🔵┃ " + key + "Bot3name:「Nama」\n" + \
+                  "┃🔵┃ " + key + "Bot1up「Kirim fotonya」\n" + \
+                  "┃🔵┃ " + key + "Bot2up「Kirim fotonya」\n" + \
+                  "┃🔵┃ " + key + "Bot3up「Kirim fotonya」\n" + \
+                  "┃🔵┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
+                  "┃🔵┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
+                  "╰━━━━━━━━━━╯\n──┅━✥ == ✥━┅──\n┃😈┃ MAX FAMS┃😈┃\n──┅━✥ == ✥━┅──\n╭━━━━━━━━━━╮\n┣😈【さัএπัஞ✵ບิथℓℓҨतΩ】😈\n╰━━━━━━━━━━╯\n"
     return helpMessage1
 
 def bot(op):
