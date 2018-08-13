@@ -619,8 +619,6 @@ def bot(op):
                     if (wait["message"] in [" "," ","\n",None]):
                         pass
                     else:
-                        cl.findAndAddContactsByMid(op.param1)
-                        sendMention(op.param1, op.param1, "[SELF BOT]\n[By:【さัএπัஞ✵ບิथℓℓҨतΩ】]\nhttp://line.me/ti/p/~max_pv")
                         cl.sendText(op.param1, wait["message"])
                         cl.sendContact(op.param1, "u4862fe4b182b2fd194a3108e2f3662e8")
 
