@@ -125,7 +125,7 @@ wait = {
     "Respontag":"SEKARANG TAG BESOK JATUH CINTA 😨",
     "welcome":"Selamat datang & betah",
     "comment":"Like like & like by 【さัএπัஞ✵ບิथℓℓҨतΩ】",
-    "message":"Terimakasih sudah add saya 😃\n【さัএπัஞ✵ບิथℓℓҨतΩ】\n\nOpen Tikungan:\n┃🇮🇩┃ 1 hari 1000c\n┃🇮🇩┃ 1 minggu 2 juta 😁\n\nMinat?\nChat aja...",
+    "message":"ไม่สำคัญเราเข้าใจ 👌\nไม่เป็นไรเราโอเคร 😂\n\nBy.™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
     }
 
 read = {
