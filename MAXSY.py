@@ -106,8 +106,8 @@ wait = {
     "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja kan...🙌😂",
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
-    "comment":"Like by JEM_BOT",
-    "message":"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
+    "comment":"Like by【さัএπัஞ✵ບิथℓℓҨतΩ】",
+    "message":"【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
@@ -357,7 +357,7 @@ def help():
     key = key.title()
     key2 = Setmain["namecreator"]
     key2 = key2.title()
-    helpMessage = "🔰 MODE: "+ key2 +" 🔰" + "\n" + \
+    helpMessage = "🔰 【さัএπัஞ✵ບิथℓℓҨतΩ】: "+ key2 +" 🔰" + "\n" + \
                   "🔥 Help Message 🔥" + "\n" + \
                   "     Gunakan「 " + key + " 」Di Depannya\n" + \
                   "\n🔵 Menu" + "\n" + \
@@ -533,7 +533,7 @@ line.me/ti/p/~calon.almarhum99"""
     return helpMessage2
 def listharga():
     helpMessage3 = """
-#Price List ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :
+#Price List【さัএπัஞ✵ບิथℓℓҨतΩ】:
 
 🤖 Jasa bikin 2anak :
 🔰 Male/Female Only ⏩ 150K/Minggu
@@ -544,7 +544,7 @@ def listharga():
 🔰 Private + Publik + Legal + Certifikasi ⏩ 250K/Minggu
 
 ✍️ Bisa Requests Mau Berapa Lama Buat Debay.
-Chat Ke : http://line.me/ti/p/~calon.almarhum99
+Chat Ke : http://line.me/ti/p/~max_pv
 
 📃
 * Always on 24 Jam
@@ -1177,7 +1177,7 @@ def bot(op):
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ 」\n")
+                               sendMention(msg.to, sender, "「【さัএπัஞ✵ບิथℓℓҨतΩ】」\n")
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd == "me" or text.lower() == 'me':
@@ -1363,7 +1363,7 @@ def bot(op):
                         elif text.lower() == "resetnamecreator":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               Setmain["namecreator"] = "ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™"
+                               Setmain["namecreator"] = "【さัএπัஞ✵ບิथℓℓҨतΩ】"
                                cl.sendMessage(msg.to, "「Change name creator」\nNama creator kembali ke awal")
 
                         elif cmd == "restart":
@@ -1582,60 +1582,21 @@ def bot(op):
                                 cl.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tagall" or text.lower() == '😆':
+                        elif cmd == "tagall":
                           if wait["selfbot"] == True:
-                            if msg._from in admin:
-                               group = cl.getGroup(msg.to)
-                               nama = [contact.mid for contact in group.members]
-                               nm1, nm2, nm3, nm4, jml = [], [], [], [], len(nama)
-                               if jml <= 100:
-                                   mentionMembers(msg.to, nama)
-                               if jml > 100 and jml < 200:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, len(nama)-1):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                               if jml > 200 and jml < 300:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, len(nama)-1):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                               if jml > 300 and jml < 400:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, 299):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                                   for l in range (300, len(nama)-1):
-                                       nm4 += [nama[l]]
-                                   mentionMembers(msg.to, nm4)
-                               if jml > 400 and jml < 500:
-                                   for i in range (0, 99):
-                                       nm1 += [nama[i]]
-                                   mentionMembers(msg.to, nm1)
-                                   for j in range (100, 199):
-                                       nm2 += [nama[j]]
-                                   mentionMembers(msg.to, nm2)
-                                   for k in range (200, 299):
-                                       nm3 += [nama[k]]
-                                   mentionMembers(msg.to, nm3)
-                                   for l in range (300, 399):
-                                       nm4 += [nama[l]]
-                                   mentionMembers(msg.to, nm4)
-                                   for m in range (400, len(nama)-1):
-                                       nm5 += [nama[m]]
-                                   mentionMembers(msg.to, nm5)
+                            group = cl.getGroup(msg.to)
+                            nama = [contact.mid for contact in group.members]
+                            k = len(nama)//20
+                            for a in range(k+1):
+                                txt = u''
+                                s=0
+                                b=[]
+                                for i in group.members[a*20 : (a+1)*20]:
+                                    b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
+                                    s += 7
+                                    txt += u'@Alin \n'
+                                cl.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
+                                cl.sendMessage(to, "Hello {} Mention".format(str(len(nama)))) 
 
                         elif cmd == "listadmin":
                           if wait["selfbot"] == True:
