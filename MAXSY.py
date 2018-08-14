@@ -53,7 +53,7 @@ settings = {
     "group":{},
     "groupPicture":False,
     "changePicture":False,
-    "autoJoinTicket":False,
+    "autoJoinTicket":True,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -96,12 +96,12 @@ wait = {
     'autoLeave':False,
     'autoLeave1':False,
     "detectMention":True,
-    "Mentiongift":False,
+    "Mentiongift":True,
     "Mentionkick":False,
     "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
-    "unsend":False,
+    "unsend":True,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
     "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja kan...🙌😂",
     "welcome":"Nah Calon Tikungan Baru",
@@ -528,8 +528,8 @@ def infomeme():
 ✍ sparta
 ✍ aag
 
-🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™ 🎓
-line.me/ti/p/~calon.almarhum99"""
+🎓 by:【さัএπัஞ✵ບิथℓℓҨतΩ】🎓
+line.me/ti/p/~max_pv"""
     return helpMessage2
 def listharga():
     helpMessage3 = """
