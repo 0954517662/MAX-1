@@ -1582,7 +1582,7 @@ def bot(op):
                                 cl.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tagall":
+                        elif cmd == "แทค":
                           if wait["selfbot"] == True:
                             group = cl.getGroup(msg.to)
                             nama = [contact.mid for contact in group.members]
