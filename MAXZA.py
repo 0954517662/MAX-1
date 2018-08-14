@@ -16,7 +16,7 @@ cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = LINEChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-print ("✍Ð₱₭ ฿Ø₮ LOGIN SUCCESS")
+print ("✍MAX ฿Ø₮ LOGIN SUCCESS")
 
 clProfile = cl.getProfile()
 clSettings = cl.getSettings()
@@ -26,7 +26,7 @@ call = cl
 Dpk = [cl]
 mid = cl.profile.mid
 DpkBot=[mid]
-Owner=["ud296655acef67cbd5e8208e63629f78b"]
+Owner=["u4862fe4b182b2fd194a3108e2f3662e8"]
 DpkFamily = DpkBot + Dpk + Owner
 
 contact = cl.getProfile()
@@ -36,12 +36,12 @@ backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
 Wait = {
-    "UnsendPesan":False,
+    "UnsendPesan":True,
     "SpamInvite":False,
     "Contact":False,
-    "GName":"ARIFISTIFIK",
+    "GName":"【さัএπัஞ✵ບิथℓℓҨतΩ】",
     "AutoRespon":True,
-    "MentionText":"dîh ηgëtåg äķü mülü... Kămư kë§ëÞîåη ¥åk...???",
+    "MentionText":"มีอะไร สาวน้อย 😁",
     "KickRespon":False,
     "KillOn":False,
     "KickOn":False,
@@ -53,20 +53,20 @@ Wait = {
     "Invite":False,
     "Copy":False,
     "autoAdd":True,
-    "PesanAdd":"ᴋᴇɴᴀᴘᴀ ʙᴀʀᴜ sᴇᴋᴀʀᴀɴɢ ᴋᴀᴍᴜ ᴀᴅᴅ ᴀᴋᴜ? 😅",
+    "PesanAdd":"แอดมา มีอะไร อีกล่ะ 😕",
     "ContactAdd":{},
     "autoBlock":False,
-    "autoJoin":False,
-    "AutojoinTicket":False,
+    "autoJoin":True,
+    "AutojoinTicket":True,
     "AutoReject":True,
     "autoRead":False,
     "IDSticker":False,
     "Timeline":False,
-    "Welcome":False,
+    "Welcome":True,
     "BackupBot":True,
-    "WcText": "\nsᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ 😊😊😊\nʏᴜᴋ ᴍᴜʟᴀɪ ᴋᴇɴᴀʟᴀɴ sᴀᴍᴀ ʏᴀɴɢ ʟᴀɪɴ😅",
+    "WcText": "\n Hello Where you come from 😒",
     "Leave":True,
-    "LvText": "sᴀᴍᴘᴀɪ ᴊᴜᴍᴘᴀ ʟᴀɢɪ ᴋᴀᴡᴀɴ 😘",
+    "LvText": "Bye 😘",
     "Mic":False,
     "MicDel":False,
     "Adminadd":False,
@@ -80,7 +80,7 @@ Wait = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "ud296655acef67cbd5e8208e63629f78b":True #MID ADMIN
+        "u4862fe4b182b2fd194a3108e2f3662e8":True #MID ADMIN
     },
 }
 
@@ -137,7 +137,7 @@ DpkCctv={
 
 Help ="""
 ╔═══════════════════
-╠☬➣  MËÑÜ ĦÉĹP  ☬➣  ⏩⏩
+╠☬➣  MËÑÜ ĦÉĹP
 ╠═══════════════════
 ╠☬➣ᴍᴇ                           
 ╠☬➣ᴍʏ ɴᴀᴍᴇ          
@@ -196,13 +196,13 @@ Help ="""
 ╠☬➣ɢʀᴜᴘ ɪᴅ                
 ╠☬➣ᴀɴɴᴏᴜɴᴄᴇ    
 ╠═══════════════════
-╠☬➣  ✍Ð₱₭ ฿Ø₮₰ ⃟􏿿 ☬➣   ⏩
+╠☬➣By.【さัএπัஞ✵ບิथℓℓҨतΩ】
 ╚═══════════════════
 """""
 
 Helpbot ="""
 ╔═══════════════════
-╠☬➣  ĦÉĹP  BŐŤŞ°☬➣ ⏩⏩
+╠☬➣  ĦÉĹP  BŐŤŞ
 ╠═══════════════════
 ╠☬➣sᴘᴀᴍ ᴏɴ [ᴊᴍʟᴀʜ ᴛᴇᴋs]
 ╠☬➣ᴀᴅᴍɪɴ:ᴀᴅᴅ-ᴏɴ             
@@ -231,13 +231,13 @@ Helpbot ="""
 ╠☬➣ᴄғᴏᴛᴏɢʀᴜᴘ [ᴏɴ/ᴏғғ]
 ╠☬➣sᴘᴀᴍɪɴᴠɪᴛᴇ [ᴏɴ/ᴏғғ]    
 ╠═══════════════════
-╠☬➣  ✍Ð₱₭ ฿Ø₮₰ ⃟􏿿 ☬➣  ⏩
+╠☬➣By.【さัএπัஞ✵ບิथℓℓҨतΩ】
 ╚═══════════════════
 """""
 
 Helpmedia ="""
 ╔═══════════════════
-╠☬➣  MËÑÜ M€ÐĪÄ  ☬➣⏩⏩
+╠☬➣  MËÑÜ M€ÐĪÄ
 ╠═══════════════════
 ╠☬➣ ᴛᴏᴘɴᴇᴡs
 ╠☬➣ ᴅᴀᴛᴀ ʙɪʀᴛʜ:
@@ -267,7 +267,7 @@ Helpmedia ="""
 ╠☬➣ ᴍᴀʟᴀʏsɪᴀ:
 ╠☬➣ ᴊᴀᴡᴀ:
 ╠═══════════════════
-╠☬➣  ✍Ð₱₭ ฿Ø₮₰ ⃟􏿿 ☬➣   ⏩
+╠☬➣By.【さัএπัஞ✵ບิथℓℓҨतΩ】
 ╚═══════════════════
 """""
 
@@ -352,7 +352,7 @@ def LINE_ARIF_USER(arif):
             if Wait["Welcome"] == True:
                 if arif.param2 not in Dpk:
                     ginfo = cl.getGroup(arif.param1)
-                    cl.mentionWithDPK(arif.param1,arif.param2," Hii","" + "\n " + str(Wait['WcText']))
+                    cl.mentionWithDPK(arif.param1,arif.param2," Hello ","" + "\n " + str(Wait['WcText']))
                     cl.sendMessage(arif.param1, None, contentMetadata={'mid':arif.param2}, contentType=13)
                     print ("MEMBER HAS JOIN THE GROUP")
 
@@ -892,7 +892,7 @@ def LINE_ARIF_USER(arif):
                         elif dpkText.lower() == "speed":
                             if user in DpkFamily or user in Wait["Admin"]:
                                 no = time.time()
-                                cl.sendText("u65224f4e8812136f01b25275a54b5aef", ' ')
+                                cl.sendText("ue86841a3982b7da6e8094f3c218d79b6", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
