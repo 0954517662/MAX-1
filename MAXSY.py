@@ -12,7 +12,7 @@ from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
 #cl = LineClient()
-cl = LineClient(authToken='')
+cl = LineClient(authToken='EvitwLscPmH6PRlm3wC4.CcgDV/a3Tt9VQbxbB80yXa.mV/CSwJlwVTFkVY8lAQEzxt1yUerNWgyVk0dmhNzvws=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
