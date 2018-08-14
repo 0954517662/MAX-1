@@ -1340,23 +1340,19 @@ def LINE_ARIF_USER(arif):
 
                         elif dpkText.lower().startswith("mentionall"):
                             if user in DpkFamily or user in Wait["Admin"]:
-                                gname = cl.getGroup(kirim)
-                                local = [contact.mid for contact in gname.members]
-                                try:
-                                    lur = len(local)//20
-                                    for fu in range(lur+1):
-                                        hdc = u''
-                                        sell=0
-                                        com=[]
-                                        for rid in gname.members[fu*20 : (fu+1)*20]:
-                                            com.append({"S":str(sell), "E" :str(sell+6), "M":rid.mid})
-                                            sell += 7
-                                            hdc += u'@A_DPK\n'
-                                            atas = '\n Halo {} '.format(str(gname.name))
-                                            atas += '\n Halo {} Family'.format(str(len(local)))
-                                        cl.sendMessage(kirim, text=hdc + str(atas), contentMetadata={u'MENTION': json.dumps({'MENTIONEES':com})}, contentType=0)
-                                except Exception as error:
-                                    cl.sendMessage(kirim, str(error))
+                              group = cl.getGroup(msg.to)
+                              nama = [contact.mid for contact in group.members]
+                              k = len(nama)//20
+                              for a in range(k+1):
+                                  txt = u''
+                                  s=0
+                                  b=[]
+                                  for i in group.members[a*20 : (a+1)*20]:
+                                      b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
+                                      s += 7
+                                      txt += u'@Alin \n'
+                                  cl.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
+                                  cl.sendMessage(to, "Hello {} Mention".format(str(len(nama)))) 
 
                         elif dpkText in ["Welcome on"]:
                           if user in DpkFamily or user in Wait["Admin"]:
