@@ -30,7 +30,7 @@ kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='')
+sw = LineClient(authToken='EvFx9HD3usuyRSksKAmd.QS8IHLP9x29+RZVcI6ef7q.mDZrUw7bslmnFsnz60aYA+DusXSKbodBhm/UFj+hkHA=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
