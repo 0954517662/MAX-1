@@ -25,8 +25,8 @@ Di C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/0954517662/2019`
-- `cd 2019`
+- `git clone https://github.com/0954517662/MAX-1`
+- `cd MAX-1`
 - `python MAX4.py`
 
 INSTALL Di TERMUX :
@@ -46,24 +46,24 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
-- `git clone https://github.com/0954517662/2019`
-- `cd 2019`
+- `git clone https://github.com/0954517662/MAX-1`
+- `cd MAX-1`
 - `python3 MAX4.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 Di C9 :
-- `cd 2019`
+- `cd MAX-1`
 - `python3 MAX4.py`
 
 Di Termux :
-- `cd 2019`
+- `cd MAX-1`
 - `python3 MAX4.py`
 
 
 EDITOR BY ARIFISTIFIK
 ------
-- `Add My ID LINE : arifistifik`
+- `Add My ID LINE : max_pv`
 - `Sambil nonton youtue biar cepet paham yang blom tau. dulu aku juga gitu 😊. Youtube me : ARIFISTIFIK`
 #cuma saran bukan menggurui 😅
 #aku juga masih pekok kuadrat😊
