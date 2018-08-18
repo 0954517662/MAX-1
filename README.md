@@ -5,7 +5,7 @@ GET TOKEN :
 ------
 - `Google Chrome`
 - `http://101.255.95.249:6969`
-- `git clone https://github.com/0954517662/tokenpy
+- `git clone https://github.com/0954517662/tokenpy`
 
 Cara Install Bot :
 ------
