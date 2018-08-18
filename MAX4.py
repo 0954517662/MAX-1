@@ -115,7 +115,7 @@ wait = {
     'autoJoin':True,
     'autoAdd':True,
     'autoLeave':False,
-    'autoLeave1':False,
+    'autoLeave1':True,
     "detectMention":True,
     "Mentionkick":False,
     "welcomeOn":False,
