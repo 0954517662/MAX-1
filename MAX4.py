@@ -316,7 +316,7 @@ def help():
                   "┃🔴┃ " + key + "Open\n" + \
                   "┃🔴┃ " + key + "Close\n" + \
                   "┃🔴┃ " + key + "Url grup\n" + \
-                  "┃🔴┃ " + key + "Gruplist\n" + \
+                  "┃🔴┃ " + key + "Bot1-3\n" + \
                   "┃🔴┃ " + key + "Infogrup「angka」\n" + \
                   "┃🔴┃ " + key + "Infomem「angka」\n" + \
                   "┃🔴┃ " + key + "Remove chat\n" + \
