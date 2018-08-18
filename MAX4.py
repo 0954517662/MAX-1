@@ -10,27 +10,27 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EudBnx7OTczHol5QyWeb.0PzLwS72Fl1EGGJMnIN3IW.Qvu8QiQt7pnfeJN4gY0zkDs50nCO1N+aG/x7WKMXses=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EumxSC7ZteN3Ei1V2plc.I+f5KCw2GCuJ/7FHHsLJla.v9TP6b/rETzljntC+mea9AVDYXkVGrnh2mu+O0w52Dk=')
+ki = LineClient(authToken='EwhNq0PAgOFV0RWbzbU8.VsA2rcgs+TaVmXlFik1nUa.0caHFOlE+bnrv+TiHF/2yToL6RR1FJphIvvHENlb0WM=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EuhNF6GX9o6hn4dEVkt9.V1xPyy4UYKujjpNoRrWLYq.KUVHKHQ7t2oziDVljUWc341WdcLPbcozOC1m0DVmMIw=')
+kk = LineClient(authToken='EwBGeKGGDfpjDFFIoNK4.8vNXuT169WbpTWNJ8x+aTa.yhqtEjtuJphNJ3Z9R9DBrfkm5yETFX1vKJMtkh57o1k=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EuEIQBN2YnZspzGdEk04.r+FX81E30Cr0z9elsejUHa.Q/P/mngFw6fRLjf2buxPG6tFzcrE1FAovW0/cc5EU1U=')
+kc = LineClient(authToken='EwyLaldSbkoiTkydbNWf.CuIHbpS9gDZ6DHOj/jbSRW.693nzt1etLe0g9M29Z/irJhqz1SkufT5+bzYpu71MMM=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EvFx9HD3usuyRSksKAmd.QS8IHLP9x29+RZVcI6ef7q.mDZrUw7bslmnFsnz60aYA+DusXSKbodBhm/UFj+hkHA=')
+sw = LineClient(authToken='EwQ4XLyR20RUJOfpHTL5.iX+8Li1pxKmw9MdbgTos1q.4CBr/tHEgQvoH4rrSQGN7nQqMUXmLzQHA8xQrVE94Sg=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -125,7 +125,7 @@ wait = {
     "Respontag":"SEKARANG TAG BESOK JATUH CINTA 😨",
     "welcome":"Selamat datang & betah",
     "comment":"Like like & like by 【さัএπัஞ✵ບิथℓℓҨतΩ】",
-    "message":"ไม่สำคัญเราเข้าใจ 👌\nไม่เป็นไรเราโอเคร 😂\n\nBy.™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
+    "message":"【さัএπัஞ✵ບิथℓℓҨतΩ】 :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~max_pv\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
