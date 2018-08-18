@@ -1,11 +1,12 @@
-# Arif
+# 【さัএπัஞ✵ບิथℓℓҨतΩ】
 BOT PROTECT PY3 ANTI JS LINE🐦FIXS UPDATE 25 JULI 2018
 ------
 GET TOKEN :
 ------
 - `Google Chrome`
 - `http://101.255.95.249:6969`
--
+- `git clone https://github.com/0954517662/tokenpy
+
 Cara Install Bot :
 ------
 Di C9 SERVER/ VPS :
@@ -61,13 +62,13 @@ Di Termux :
 - `python3 MAX4.py`
 
 
-EDITOR BY ARIFISTIFIK
+EDITOR BY 【さัএπัஞ✵ບิथℓℓҨतΩ】
 ------
 - `Add My ID LINE : max_pv`
-- `Sambil nonton youtue biar cepet paham yang blom tau. dulu aku juga gitu 😊. Youtube me : ARIFISTIFIK`
+- `【さัএπัஞ✵ບิथℓℓҨतΩ】`
 #cuma saran bukan menggurui 😅
 #aku juga masih pekok kuadrat😊
 Thx To :
 ------
-- `SEMUANYA SEMUANYA`
+- `【さัএπัஞ✵ບิथℓℓҨतΩ】`
 
