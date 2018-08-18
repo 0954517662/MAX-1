@@ -1405,7 +1405,7 @@ def bot(op):
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
-                                cl.sendMessage(msg.to, "┃😈┃ ┃DPK┃ Family Grup Info\n\n┃😈┃ Nama Group : {}".format(G.name)+ "\n┃😈┃ ID Group : {}".format(G.id)+ "\n┃😈┃ Pembuat : {}".format(G.creator.displayName)+ "\n┃😈┃ Waktu Dibuat : {}".format(str(timeCreated))+ "\n┃😈┃ Jumlah Member : {}".format(str(len(G.members)))+ "\n┃😈┃ Jumlah Pending : {}".format(gPending)+ "\n┃😈┃ Group Qr : {}".format(gQr)+ "\n┃😈┃ Group Ticket : {}".format(gTicket))
+                                cl.sendMessage(msg.to, "┃😈┃ ┃MAX┃ Family Grup Info\n\n┃😈┃ Nama Group : {}".format(G.name)+ "\n┃😈┃ ID Group : {}".format(G.id)+ "\n┃😈┃ Pembuat : {}".format(G.creator.displayName)+ "\n┃😈┃ Waktu Dibuat : {}".format(str(timeCreated))+ "\n┃😈┃ Jumlah Member : {}".format(str(len(G.members)))+ "\n┃😈┃ Jumlah Pending : {}".format(gPending)+ "\n┃😈┃ Group Qr : {}".format(gQr)+ "\n┃😈┃ Group Ticket : {}".format(gTicket))
                                 cl.sendMessage(msg.to, None, contentMetadata={'mid': G.creator.mid}, contentType=13)
                                 cl.sendImageWithURL(msg.to, 'http://dl.profile.line-cdn.net/'+G.pictureStatus)
                             except Exception as e:
@@ -1819,7 +1819,7 @@ def bot(op):
                                         kc.leaveGroup(i)
                                         cl.sendMessage(to,"Berhasil keluar dari grup " +h)
 
-                        elif cmd == "assist1":
+                        elif cmd == "bot1":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -1832,7 +1832,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "assist2":
+                        elif cmd == "bot2":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -1845,7 +1845,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kk.updateGroup(G)
 
-                        elif cmd == "assist3":
+                        elif cmd == "bot3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
