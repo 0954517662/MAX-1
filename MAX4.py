@@ -1207,6 +1207,7 @@ def bot(op):
                             if msg._from in admin:
                                helpMessage = help()
                                cl.sendMessage(msg.to, str(helpMessage))
+                               cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
                                                                                        
                         if cmd == "self on":
                             if msg._from in admin:
@@ -1223,6 +1224,7 @@ def bot(op):
                             if msg._from in admin:
                                helpMessage1 = helpbot()
                                cl.sendMessage(msg.to, str(helpMessage1))
+                               cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
 
                         elif cmd == "status":
                           if wait["selfbot"] == True:
@@ -1257,6 +1259,7 @@ def bot(op):
                                 if msg.to in protectcancel: md+="┃👿┃ Protectcancel「ON」\n"
                                 else: md+="┃😈┃ Protectcancel「OFF」\n"
                                 cl.sendMessage(msg.to, md+"\nTanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nJam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
+                                cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -1265,6 +1268,7 @@ def bot(op):
                                 for i in creator:
                                     ma = cl.getContact(i)
                                     cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
+                                    cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
 
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
