@@ -49,6 +49,7 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
+- `pip3 install pytz`
 - `git clone https://github.com/0954517662/MAX-1`
 - `cd MAX-1`
 - `python3 MAX4.py`
