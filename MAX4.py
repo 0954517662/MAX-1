@@ -1268,7 +1268,6 @@ def bot(op):
                                 for i in creator:
                                     ma = cl.getContact(i)
                                     cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
-                                    cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
 
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
