@@ -12,7 +12,7 @@ from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
 #cl = LineClient()
-cl = LineClient(authToken='EvitwLscPmH6PRlm3wC4.CcgDV/a3Tt9VQbxbB80yXa.mV/CSwJlwVTFkVY8lAQEzxt1yUerNWgyVk0dmhNzvws=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -22,10 +22,10 @@ call = cl
 
 mid = cl.getProfile().mid
 
-admin = [mid]
+admin = ["u6c6a0dba35103c48bdaae35c21750b14","u4862fe4b182b2fd194a3108e2f3662e8"]
 
 KAC = [cl]
-Bots = [mid]
+Bots = ["u6c6a0dba35103c48bdaae35c21750b14","u4862fe4b182b2fd194a3108e2f3662e8"]
 Phie = admin
 
 welcome = []
@@ -103,7 +103,7 @@ wait = {
     "selfbot":True,
     "unsend":True,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
-    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja kan...🙌😂",
+    "Respontag":"มีไรคะ...!!",
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by【さัএπัஞ✵ບิथℓℓҨतΩ】",
@@ -734,6 +734,8 @@ def bot(op):
                         pass
                     else:
                         cl.sendMessage(op.param1, wait["message"])
+                        cl.sendImageWithURL(op.param1, image)
+                        cl.blockContact(op.param1)
 
         if op.type == 55:
             try:
@@ -1075,7 +1077,8 @@ def bot(op):
                             if msg._from in admin:
                                helpMessage = help()
                                cl.sendMessage(msg.to, str(helpMessage))
-
+                               cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
+ 
                         if cmd == "self on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
@@ -1091,7 +1094,8 @@ def bot(op):
                             if msg._from in admin:
                                helpMessage1 = helarot()
                                cl.sendMessage(msg.to, str(helpMessage1))
-
+                               cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
+ 
                         elif cmd == "info meme":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -1145,7 +1149,8 @@ def bot(op):
                                 if wait["autoLeave"] == True: md+="🔊 Autoleave「ON」\n"
                                 else: md+="🔇 Autoleave「OFF」\n"
                                 cl.sendMessage(msg.to, md+"-▬▬▬▬▬▬▬▬▬▬▬▬\n☬ Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n☬ Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]\n-▬▬▬▬▬▬▬▬▬▬▬▬")
-
+                                cl.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
+      
                         elif cmd == "status translate":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
