@@ -1301,7 +1301,7 @@ def bot(op):
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "⏩ĐPĶ PŘØŤĘČŤÎØŇ⏪\n"
+                                md = "⏩【さัএπัஞ✵ບิथℓℓҨतΩ】⏪\n"
                                 if wait["sticker"] == True: md+="⏩Sticker「ON」\n"
                                 else: md+="⏩Sticker「OFF」\n"
                                 if wait["contact"] == True: md+="⏩Contact「ON」\n"
