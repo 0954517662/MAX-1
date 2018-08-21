@@ -377,7 +377,7 @@ def help():
                   "┃🔴┃ " + key + "Listbot\n" + \
                   "┃🔴┃ " + key + "Listadmin\n" + \
                   "┃🔴┃ " + key + "Listprotect\n" + \
-                  "╰━━━━━━━━━━╯\n╔══ ♣°•.★* ☠ *★ .• ♣══╗\n┃👻┃ MAX FAMS┃👻┃\n╚══ ♣°•.★* ☠ *★ .• ♣══╝\n╭━━━━━━━━━━╮\n┣👻【さัএπัஞ✵ບิथℓℓҨतΩ】👻\n╰━━━━━━━━━━╯\n"
+                  "╰━━━━━━━━━━╯\n╔══ ♣°•.★* ☠ *★ .• ♣══╗\n┃👻┃ MAX FAMS┃👻┃\n╚══ ♣°•.★* ☠ *★ .• ♣══╝\n╭━━━━━━━━━━╮\n┣【さัএπัஞ✵ບิथℓℓҨतΩ】\n╰━━━━━━━━━━╯\n"
     return helpMessage
 
 def helpbot():
@@ -385,7 +385,7 @@ def helpbot():
     key = key.title()
     helpMessage1 = "╔══ ♣°•.★* ☠ *★ .• ♣══╗\n┃😈┃ MAX BLACKLIST ┃😈┃\n╚══ ♣°•.★* ☠ *★ .• ♣══╝\n╭━━━━━━━━━━╮\n" + \
                   "┃🔵┃ " + key + "Blc\n" + \
-                  "┃🔵┃ " + key + "Ban:on\n" + \
+                  "┃🔵┃ " + key + "Ba\n" + \
                   "┃🔵┃ " + key + "Unban:on\n" + \
                   "┃🔵┃ " + key + "Ban「@」\n" + \
                   "┃🔵┃ " + key + "Unban「@」\n" + \
@@ -2539,7 +2539,45 @@ def bot(op):
                                            random.choice(ABC).kickoutFromGroup(msg.to, [target])
                                        except:
                                            pass
+ 
+                       elif text.lower() == 'fuck@sirichan':
+                            if msg._from in admin:
+                                gs = cl.getGroup(msg.to)
+                            gs = cl.getGroup(msg.to)
+                            gs = cl.getGroup(msg.to)
+                            sirilist = [i.mid for i in gs.members if any(word in i.displayName for word in ["Doctor.A","Eliza","Parry","Rakko","しりちゃん","0","1","2","3","4","5","6","7","8","9"])]
+                            if sirilist != []:
+                                groupParam = msg.to
+                                try:
+                                    p = Pool(40)
+                                    p.map(SiriGetOut,sirilist)
+                                    p.close()
+                                except:
+                                    p.close()
 
+                       elif text.lower() == 'bc':
+                            if msg.toType == 2:
+                                gs = cl.getGroup(msg.to)
+                                gs = ki.getGroup(msg.to)
+                                gs = kk.getGroup(msg.to)
+                                gs = kc.getGroup(msg.to)
+                                targets = []
+                                for g in gs.members:
+                                    targets.append(g.mid)
+                                targets.remove(mid)
+                                if targets == []:
+                                    cl.sendText(msg.to,"kayak nya limit")
+                                else:
+                                    for target in targets:
+                                      if target not in Bots:
+                                        try:
+                                            klist=[ki,kk,kc]
+                                            kicker=random.choice(klist)
+                                            kicker.kickoutFromGroup(msg.to,[target])
+                                            print (msg.to,[g.mid])
+                                        except:
+                                           pass
+ 
 #===========ADMIN ADD============#
                         elif ("Adminadd " in msg.text):
                           if wait["selfbot"] == True:
