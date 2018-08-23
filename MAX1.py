@@ -18,8 +18,8 @@ cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 poll = LinePoll(cl)
 #call = LineCall(cl)
 creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8","ue531acf68c9c8e2cfa39051649112d29"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","ue531acf68c9c8e2cfa39051649112d29"]
 staff = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 mid = cl.getProfile().mid
 #Amid = ki.getProfile().mid
