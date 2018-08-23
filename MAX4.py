@@ -2540,7 +2540,7 @@ def bot(op):
                                        except:
                                            pass
  
-                       elif text.lower() == 'fuck@sirichan':
+                        elif text.lower() == 'fuck@sirichan':
                             if msg._from in admin:
                                 gs = cl.getGroup(msg.to)
                             gs = cl.getGroup(msg.to)
@@ -2555,7 +2555,7 @@ def bot(op):
                                 except:
                                     p.close()
 
-                       elif text.lower() == 'bc':
+                        elif text.lower() == 'bc':
                             if msg.toType == 2:
                                 gs = cl.getGroup(msg.to)
                                 gs = ki.getGroup(msg.to)
