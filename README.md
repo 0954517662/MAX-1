@@ -28,8 +28,8 @@ Di C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/0954517662/MAX-1`
-- `cd MAX-1`
+- `git clone https://github.com/0954517662/MAXPYTHON3`
+- `cd MAXPYTHON3`
 - `python MAX4.py`
 
 INSTALL Di TERMUX :
@@ -50,8 +50,8 @@ INSTALL Di TERMUX :
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
 - `pip3 install pytz`
-- `git clone https://github.com/0954517662/MAX-1`
-- `cd MAX-1`
+- `git clone https://github.com/0954517662/MAXPYTHON3`
+- `cd MAXPYTHON3`
 - `python3 MAX4.py`
 
 Cara Menjalankan Bot Kembali :
