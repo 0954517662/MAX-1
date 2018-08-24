@@ -2539,50 +2539,7 @@ def bot(op):
                                            random.choice(ABC).kickoutFromGroup(msg.to, [target])
                                        except:
                                            pass
- 
-                        elif text.lower() == 'fuck@sirichan':
-                            if msg._from in admin:
-                                gs = cl.getGroup(msg.to)
-                            gs = cl.getGroup(msg.to)
-                            gs = cl.getGroup(msg.to)
-                            sirilist = [i.mid for i in gs.members if any(word in i.displayName for word in ["Doctor.A","Eliza","Parry","Rakko","しりちゃん","0","1","2","3","4","5","6","7","8","9"])]
-                            if sirilist != []:
-                                groupParam = msg.to
-                                try:
-                                    p = Pool(40)
-                                    p.map(SiriGetOut,sirilist)
-                                    p.close()
-                                except:
-                                    p.close()
 
-                        elif text.lower() == 'kickmt':
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                               _name = msg.text.replace("kickmt","")
-                               gs = arif.getGroup(msg.to)
-                               gs = ki.getGroup(msg.to)
-                               gs = kk.getGroup(msg.to)
-                               gs = kc.getGroup(msg.to)
-                               ki.sendMessage(msg.to,"「 Bye All 」")
-                               ki.sendMessage(msg.to,"「 Sory guys 」")
-                               targets = []
-                               for g in gs.members:
-                                   if _name in g.displayName:
-                                       targets.append(g.mid)
-                               if targets == []:
-                                   cl.sendMessage(msg.to,"Not Found")
-                               else:
-                                   for target in targets:
-                                       if not target in Bots:
-                                           if not target in Owner:
-                                               if not target in admin:
-                                                   try:
-                                                       klist=[cl,ki,kk,kc]
-                                                       bots=random.choice(klist)
-                                                       bots.kickoutFromGroup(msg.to,[target])
-                                                       print (msg.to,[g.mid])
-                                                   except:
-                                                       cl.sendMessage(msg.to,"") 
 #===========ADMIN ADD============#
                         elif ("Adminadd " in msg.text):
                           if wait["selfbot"] == True:
