@@ -2555,29 +2555,34 @@ def bot(op):
                                 except:
                                     p.close()
 
-                        elif text.lower() == 'bc':
-                            if msg.toType == 2:
-                                gs = cl.getGroup(msg.to)
-                                gs = ki.getGroup(msg.to)
-                                gs = kk.getGroup(msg.to)
-                                gs = kc.getGroup(msg.to)
-                                targets = []
-                                for g in gs.members:
-                                    targets.append(g.mid)
-                                targets.remove(mid)
-                                if targets == []:
-                                    cl.sendText(msg.to,"kayak nya limit")
-                                else:
-                                    for target in targets:
-                                      if target not in Bots:
-                                        try:
-                                            klist=[ki,kk,kc]
-                                            kicker=random.choice(klist)
-                                            kicker.kickoutFromGroup(msg.to,[target])
-                                            print (msg.to,[g.mid])
-                                        except:
-                                           pass
- 
+                        elif text.lower() == 'kickmt':
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                               _name = msg.text.replace("kickmt","")
+                               gs = arif.getGroup(msg.to)
+                               gs = ki.getGroup(msg.to)
+                               gs = kk.getGroup(msg.to)
+                               gs = kc.getGroup(msg.to)
+                               ki.sendMessage(msg.to,"「 Bye All 」")
+                               ki.sendMessage(msg.to,"「 Sory guys 」")
+                               targets = []
+                               for g in gs.members:
+                                   if _name in g.displayName:
+                                       targets.append(g.mid)
+                               if targets == []:
+                                   cl.sendMessage(msg.to,"Not Found")
+                               else:
+                                   for target in targets:
+                                       if not target in Bots:
+                                           if not target in Owner:
+                                               if not target in admin:
+                                                   try:
+                                                       klist=[cl,ki,kk,kc]
+                                                       bots=random.choice(klist)
+                                                       bots.kickoutFromGroup(msg.to,[target])
+                                                       print (msg.to,[g.mid])
+                                                   except:
+                                                       cl.sendMessage(msg.to,"") 
 #===========ADMIN ADD============#
                         elif ("Adminadd " in msg.text):
                           if wait["selfbot"] == True:
