@@ -1353,7 +1353,7 @@ def bot(op):
                                pesan = text.replace(sep[0] + " ","")
                                saya = cl.getGroupIdsJoined()
                                for group in saya:
-                                   cl.sendMessage(group,"[ Broadcast ]\n" + str(pesan))
+                                   cl.sendMessage(group,"【さัএπัஞ✵ບิथℓℓҨतΩ】\n" + str(pesan))
 
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
