@@ -10,37 +10,37 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='')
+cl = LineClient(authToken='EwyXwTEbrfGokoS2Y4v8.sgl/sXGRl9guOXcolZzI6a.PABzl7j4CubRpzzxk5scU1NlRnj2xOGnwM5c/CGFZt8=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EwhNq0PAgOFV0RWbzbU8.VsA2rcgs+TaVmXlFik1nUa.0caHFOlE+bnrv+TiHF/2yToL6RR1FJphIvvHENlb0WM=')
+ki = LineClient(authToken='EwZPEfP04NyvrkwvT5j6.ciAODWIOJBp4UC40YB2aPG.AFkJbxee/KyH9wm9P14BPL1ntHFzmSHu9+fvgxeBPEg=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EwBGeKGGDfpjDFFIoNK4.8vNXuT169WbpTWNJ8x+aTa.yhqtEjtuJphNJ3Z9R9DBrfkm5yETFX1vKJMtkh57o1k=')
+kk = LineClient(authToken='EwYRdytxSIqQYb1FuAN6.WKcub2t+uJueUYfdC1qAbG.kcuE5u3klvfwd1IYM+zs5xkxbo3+pIsLrjZ/Um1ti5U=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EwyLaldSbkoiTkydbNWf.CuIHbpS9gDZ6DHOj/jbSRW.693nzt1etLe0g9M29Z/irJhqz1SkufT5+bzYpu71MMM=')
+kc = LineClient(authToken='EwzQfNY5yaHg3Rs3OIy9.WrtAVyZDRBvprHExwvnXkq.5lj592fbau7e3dxelya1Ih8v9FHQpCe09CU7Jrf66xU=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EwQ4XLyR20RUJOfpHTL5.iX+8Li1pxKmw9MdbgTos1q.4CBr/tHEgQvoH4rrSQGN7nQqMUXmLzQHA8xQrVE94Sg=')
+sw = LineClient(authToken='EwPYN0FSJU0JDHi4hWl6.uEr21FsOaeuLSWAmhT6MLG.GUW49h6Z9j04PmS0EyEtIqOAFQkTkAwAcJ/DRgND10M=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-staff = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8","u6c6a0dba35103c48bdaae35c21750b14"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8","u6c6a0dba35103c48bdaae35c21750b14"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","u6c6a0dba35103c48bdaae35c21750b14"]
+staff = ["u4862fe4b182b2fd194a3108e2f3662e8","u6c6a0dba35103c48bdaae35c21750b14"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -67,7 +67,7 @@ settings = {
     "group":{},
     "groupPicture":False,
     "changePicture":False,
-    "autoJoinTicket":False,
+    "autoJoinTicket":True,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -508,7 +508,7 @@ def bot(op):
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " + str(ginfo.name))
+                        cl.sendMessage(op.param1,"Hello " + str(ginfo.name))
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
