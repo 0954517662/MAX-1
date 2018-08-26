@@ -293,7 +293,7 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╔═══════════════╗\n╠【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX MENU\n╚═══════════════╝\n╔═══════════════╗\n" + \
+    helpMessage = "╔═══════════════════╗\n╠❂➣【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX MENU\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Me\n" + \
                   "╠❂➣ " + key + "Mid「@」\n" + \
                   "╠❂➣ " + key + "Info「@」\n" + \
@@ -330,7 +330,7 @@ def help():
                   "╠❂➣ " + key + "Setkey「New Key」\n" + \
                   "╠❂➣ " + key + "Mykey\n" + \
                   "╠❂➣ " + key + "Resetkey\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX ASIK\n╚═══════════════╝\n╔═══════════════╗\n" + \
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX ASIK\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "ID line:「Id Line nya」\n" + \
                   "╠❂➣ " + key + "Sholat:「Nama Kota」\n" + \
                   "╠❂➣ " + key + "Cuaca:「Nama Kota」\n" + \
@@ -345,14 +345,14 @@ def help():
                   "╠❂➣ " + key + "Spamtag「@」\n" + \
                   "╠❂➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂➣ " + key + "Spamcall\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX PROTECT\n╚═══════════════╝\n╔═══════════════╗\n" + \
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX PROTECT\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Notag「on/off」\n" + \
                   "╠❂➣ " + key + "Semuapro「on/off」\n" + \
                   "╠❂➣ " + key + "Protecturl「on/off」\n" + \
                   "╠❂➣ " + key + "Protectjoin「on/off」\n" + \
                   "╠❂➣ " + key + "Protectkick「on/off」\n" + \
                   "╠❂➣ " + key + "Protectcancel「on/off」\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX SETTING\n╚═══════════════╝\n╔═══════════════╗\n" + \
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX SETTING\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Sticker「on/off」\n" + \
                   "╠❂➣ " + key + "Respon「on/off」\n" + \
                   "╠❂➣ " + key + "Contact「on/off」\n" + \
@@ -360,7 +360,7 @@ def help():
                   "╠❂➣ " + key + "Autoadd「on/off」\n" + \
                   "╠❂➣ " + key + "Welcome「on/off」\n" + \
                   "╠❂➣ " + key + "Autoleave「on/off」\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX ADMIN\n╚═══════════════╝\n╔═══════════════╗\n" + \
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX ADMIN\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Admin:on\n" + \
                   "╠❂➣ " + key + "Admin:repeat\n" + \
                   "╠❂➣ " + key + "Staff:on\n" + \
@@ -377,13 +377,13 @@ def help():
                   "╠❂➣ " + key + "Listbot\n" + \
                   "╠❂➣ " + key + "Listadmin\n" + \
                   "╠❂➣ " + key + "Listprotect\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n╔═══════════════╗\n╠ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════════╝\n"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "╔═══════════════╗\n╠❂➣ MAX BLACKLIST\n╚═══════════════╝\n╔═══════════════╗\n" + \
+    helpMessage1 = "╔═══════════════════╗\n╠❂➣ MAX BLACKLIST\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Blc\n" + \
                   "╠❂➣ " + key + "Ba\n" + \
                   "╠❂➣ " + key + "Unban:on\n" + \
@@ -397,7 +397,7 @@ def helpbot():
                   "╠❂➣ " + key + "Talkbanlist\n" + \
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX MENU\n╚═══════════════╝\n╔═══════════════╗\n" + \
+                  "╚═══════════════╝\n╔═══════════════════╗\n╠❂➣ MAX MENU\n╚═══════════════════╝\n╔═══════════════════╗\n" + \
                   "╠❂➣ " + key + "Cek sider\n" + \
                   "╠❂➣ " + key + "Cek spam\n" + \
                   "╠❂➣ " + key + "Cek pesan \n" + \
@@ -417,7 +417,7 @@ def helpbot():
                   "╠❂➣ " + key + "Bot3up「Kirim fotonya」\n" + \
                   "╠❂➣ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "╠❂➣ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n╔═══════════════╗\n╠ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
+                  "╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════════╝\n╔═══════════════════╗\n╠❂➣ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════════╝\n"
     return helpMessage1
 
 def bot(op):
