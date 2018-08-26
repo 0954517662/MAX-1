@@ -293,7 +293,7 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╔═══════════════╗\n╠❂➣【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═══════════════╝\n\n╔═══════════════╗\n╠❂➣ MAX MENU\n╚═══════════════╝\n╔═══════════════╗\n" + \
+    helpMessage = "╔═══════════════╗\n╠【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX MENU\n╚═══════════════╝\n╔═══════════════╗\n" + \
                   "╠❂➣ " + key + "Me\n" + \
                   "╠❂➣ " + key + "Mid「@」\n" + \
                   "╠❂➣ " + key + "Info「@」\n" + \
@@ -377,7 +377,7 @@ def help():
                   "╠❂➣ " + key + "Listbot\n" + \
                   "╠❂➣ " + key + "Listadmin\n" + \
                   "╠❂➣ " + key + "Listprotect\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n\n╔═══════════════╗\n╠❂➣https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
+                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n╔═══════════════╗\n╠ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
     return helpMessage
 
 def helpbot():
@@ -417,7 +417,7 @@ def helpbot():
                   "╠❂➣ " + key + "Bot3up「Kirim fotonya」\n" + \
                   "╠❂➣ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "╠❂➣ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n\n╔═══════════════╗\n╠❂➣https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
+                  "╚═══════════════╝\n╔═══════════════╗\n╠❂➣ MAX FAMS\n╚═══════════════╝\n╔═══════════════╗\n╠ https://line.me/ti/p/tN_nyNGY8K\n╚═══════════════╝\n"
     return helpMessage1
 
 def bot(op):
