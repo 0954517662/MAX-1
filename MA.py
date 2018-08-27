@@ -10,7 +10,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 #=============
-cl = LineClient(authToken='EvgPPkcn5qAOXK8PGD65.hFJXgvrJty58rzQg1nG81q.ug/q0lAzoiP+1/KzY3G5BK/8QhCut18/kiVdXi1IJdM=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -21,7 +21,7 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
-ki = LineClient(authToken='EvLV2qK6lkJPBWBvOXI6.YFTivvUQlJGyQ0q4WC5f5G.W7Tvs5t4FOLfP6L3/nJNrEDbhXC0lnpP62zUqAfszr8=')
+ki = LineClient(authToken='')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -30,7 +30,7 @@ lineSettings = ki.getSettings()
 Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
-kk = LineClient(authToken='Evgzt2YDGu5j8fI6S7y0.HekonXOId0LOrlrdV8suWa.Za9/BK3lzl/gXPpsb+8XV/NuwKNbdF6FWPfC2rPf9j0=')
+kk = LineClient(authToken='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -39,7 +39,7 @@ lineSettings = kk.getSettings()
 Bmid = ki.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
-kc = LineClient(authToken='EvFUiD2pfNELRC3Aer45.As29tpM17+gWKq/m5Yz8Xq.WebKAPovwWTLwdjnqmglCD8iV+zDDoDIsP7eOSE3fhc=')
+kc = LineClient(authToken='')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -48,7 +48,7 @@ lineSettings = kc.getSettings()
 Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
-km = LineClient(authToken='EwMTHv3xaSSvn60tes8c.qXiB6k3zJEG+VPAZ98trJa.AuMcEd6vA5w6wiZfyxlFAwSAu2o/Jh0eN9DGZIOEmoo=')
+km = LineClient(authToken='')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -57,7 +57,7 @@ lineSettings = km.getSettings()
 Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
-kb = LineClient(authToken='EwZD2TMWRC8DLQeUU9Z2.hmdPzUzp8pDxkggTRRJByG.TpUnBKD5WpzVyF1SLVgfHCRajdwHRf+PYj09TLQEj2s=')
+kb = LineClient(authToken='')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -66,7 +66,7 @@ lineSettings = kb.getSettings()
 Emid = kb.getProfile().mid
 responsename6 = kb.getProfile().displayName
 
-sw = LineClient(authToken='EvhD7rlI4FsSG4mjarXe.fi6AOZ9NS4Fsm3ey6B9rlG.IqporEXQK+RvUBPmwanuqAym2EBaTTbbN5tNNduoGIQ=')
+sw = LineClient(authToken='')
 sw.log("Auth Token : " + str(sw.authToken))
 channel6 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel6.channelAccessToken))
